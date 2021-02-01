@@ -17,4 +17,10 @@ Citizen.Wait(int milliseconds)
 Examples
 --------
 
-TODO
+```lua
+Citizen.CreateThread(function()
+  while true do
+    Citizen.Wait(100) -- Waits 100 milliseconds
+  end
+end)
+```
